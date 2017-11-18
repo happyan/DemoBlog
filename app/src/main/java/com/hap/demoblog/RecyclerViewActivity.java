@@ -32,7 +32,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
     private void initData() {
         mList = new ArrayList<String>();
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i < 30; i++) {
             mList.add("Item" + i);
         }
     }
@@ -109,8 +109,8 @@ public class RecyclerViewActivity extends AppCompatActivity {
             public void onItemLongClick(View view, final int position) {
                 new AlertDialog.Builder(RecyclerViewActivity.this)
                         .setTitle("确认删除吗？")
-                        .setNegativeButton("取消", null)
-                        .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("取消" , null)
+                        .setPositiveButton("确定" , new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                 mHomeAdapter.removeData(position);
