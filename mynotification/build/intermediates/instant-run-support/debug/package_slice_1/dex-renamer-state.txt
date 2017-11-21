@@ -1,0 +1,4 @@
+#Tue Nov 21 11:00:02 CST 2017
+base.0=D\:\\Android_chapter\\android-advanced-light\\chapter_1\\DemoBlog\\mynotification\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+renamed.0=classes.dex
+file.0=D\:\\Android_chapter\\android-advanced-light\\chapter_1\\DemoBlog\\mynotification\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex
