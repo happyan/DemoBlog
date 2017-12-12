@@ -32,14 +32,14 @@ public class ListAdapter  extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext,"人生苦短，我搞Java",Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext,"坚持就会有改变，继续加油吧！",Toast.LENGTH_SHORT).show();
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return 10;
+        return 20;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

@@ -26,6 +26,6 @@
             android:textSize="13sp"
             android:maxLines="4"
             android:ellipsize="end"
-            android:text="能挺过来变得坚强的理由，是我们还要需要守护的人。\n                               ---《请回答1988》"/>
+            android:text="能挺过来变得坚强的理由，是我们还有需要守护的人。\n                               ---《请回答1988》"/>
     </LinearLayout>
 </android.support.v7.widget.CardView>
