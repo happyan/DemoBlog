@@ -1,11 +1,14 @@
 package com.hap.tablayout163;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.hap.tablayout163.event.EventBusActivity;
 
 /**
  * Created by showhome002 on 2017/11/29.
@@ -33,6 +36,7 @@ public class ListAdapter  extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(mContext,"坚持就会有改变，继续加油吧！",Toast.LENGTH_SHORT).show();
+                mContext.startActivity(new Intent(mContext , EventBusActivity.class));
             }
         });
     }

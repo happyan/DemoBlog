@@ -1,5 +1,6 @@
 package com.hap.mytoolbar;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -67,7 +68,6 @@ public class MyToolbarActivity extends AppCompatActivity {
         });*/
 
         //设置侧或布局
-//        mDrawerLayout= (DrawerLayout) this.findViewById(R.id.id_drawerlayout);
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, mToolbar, R.string.drawer_open,
                 R.string.drawer_close);
         mDrawerToggle.syncState();
@@ -106,7 +106,8 @@ public class MyToolbarActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
-                Toast.makeText(MyToolbarActivity.this, "设置", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MyToolbarActivity.this, "设置", Toast.LENGTH_SHORT).show();
+               startActivity( new Intent(this,MyTabLayoutActivity.class));
                 break;
             case R.id.action_share:
                 Toast.makeText(MyToolbarActivity.this, "分享事件", Toast.LENGTH_SHORT).show();

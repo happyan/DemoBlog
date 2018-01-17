@@ -1,1 +1,7 @@
-include  ':mynotification'
+include  ':tablayout163'
+include ':app'
+include ':customview'
+include ':mycardview'
+include ':mynotification'
+include ':mytoolbar'
+include ':aidldemo'
